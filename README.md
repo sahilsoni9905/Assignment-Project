@@ -28,8 +28,12 @@ How it works:
 
 Screenshots:
 
-![Auth - Screen 1](screenshots/auth/Screenshot_2026-04-09-01-37-52-25_de0e5532150bff8c92b7fafdac0b0a29.jpg)
-![Auth - Screen 2](screenshots/auth/Screenshot_2026-04-09-01-37-55-72_de0e5532150bff8c92b7fafdac0b0a29.jpg)
+<table>
+   <tr>
+      <td><img src="screenshots/auth/Screenshot_2026-04-09-01-37-52-25_de0e5532150bff8c92b7fafdac0b0a29.jpg" alt="Auth - Screen 1" width="320"></td>
+      <td><img src="screenshots/auth/Screenshot_2026-04-09-01-37-55-72_de0e5532150bff8c92b7fafdac0b0a29.jpg" alt="Auth - Screen 2" width="320"></td>
+   </tr>
+</table>
 
 ### 2) Home
 
@@ -49,8 +53,12 @@ How it works:
 
 Screenshots:
 
-![Home - Screen 1](screenshots/home/Screenshot_2026-04-09-01-38-20-37_de0e5532150bff8c92b7fafdac0b0a29.jpg)
-![Home - Screen 2](screenshots/home/Screenshot_2026-04-09-01-38-25-65_de0e5532150bff8c92b7fafdac0b0a29.jpg)
+<table>
+   <tr>
+      <td><img src="screenshots/home/Screenshot_2026-04-09-01-38-20-37_de0e5532150bff8c92b7fafdac0b0a29.jpg" alt="Home - Screen 1" width="320"></td>
+      <td><img src="screenshots/home/Screenshot_2026-04-09-01-38-25-65_de0e5532150bff8c92b7fafdac0b0a29.jpg" alt="Home - Screen 2" width="320"></td>
+   </tr>
+</table>
 
 ### 3) Balances
 
@@ -70,8 +78,12 @@ How it works:
 
 Screenshots:
 
-![Balances - Screen 1](screenshots/balances/Screenshot_2026-04-09-01-38-30-69_de0e5532150bff8c92b7fafdac0b0a29.jpg)
-![Balances - Screen 2](screenshots/balances/Screenshot_2026-04-09-01-38-34-64_de0e5532150bff8c92b7fafdac0b0a29.jpg)
+<table>
+   <tr>
+      <td><img src="screenshots/balances/Screenshot_2026-04-09-01-38-30-69_de0e5532150bff8c92b7fafdac0b0a29.jpg" alt="Balances - Screen 1" width="320"></td>
+      <td><img src="screenshots/balances/Screenshot_2026-04-09-01-38-34-64_de0e5532150bff8c92b7fafdac0b0a29.jpg" alt="Balances - Screen 2" width="320"></td>
+   </tr>
+</table>
 
 ### 4) Profile
 
@@ -91,8 +103,12 @@ How it works:
 
 Screenshots:
 
-![Profile - Screen 1](screenshots/profile/Screenshot_2026-04-09-01-38-38-54_de0e5532150bff8c92b7fafdac0b0a29.jpg)
-![Profile - Screen 2](screenshots/profile/Screenshot_2026-04-09-01-38-46-08_de0e5532150bff8c92b7fafdac0b0a29.jpg)
+<table>
+   <tr>
+      <td><img src="screenshots/profile/Screenshot_2026-04-09-01-38-38-54_de0e5532150bff8c92b7fafdac0b0a29.jpg" alt="Profile - Screen 1" width="320"></td>
+      <td><img src="screenshots/profile/Screenshot_2026-04-09-01-38-46-08_de0e5532150bff8c92b7fafdac0b0a29.jpg" alt="Profile - Screen 2" width="320"></td>
+   </tr>
+</table>
 
 ## Setup (Windows)
 
