@@ -50,4 +50,24 @@ class BalancesUseCase {
       remainingBalance: income - expense,
     );
   }
+
+  Future<MonthlySummaryEntity> getAllTimeSummary(String userId) async {
+    final transactions = await _repository.getTransactions(userId);
+    double income = 0;
+    double expense = 0;
+
+    for (final transaction in transactions) {
+      if (transaction.type == TransactionType.income) {
+        income += transaction.amount;
+      } else {
+        expense += transaction.amount;
+      }
+    }
+
+    return MonthlySummaryEntity(
+      totalIncome: income,
+      totalExpense: expense,
+      remainingBalance: income - expense,
+    );
+  }
 }

@@ -141,9 +141,18 @@ class AuthController extends GetxController {
     try {
       isLoading.value = true;
       errorMessage.value = '';
-      final user = await _registerUseCase(name, email, password);
-      currentUser.value = user;
-      Get.offAllNamed(AppRoutes.auth);
+      await _registerUseCase(name, email, password);
+      isSignInSelected.value = true;
+      signInEmailController.text = email;
+      signInPasswordController.clear();
+      Get.snackbar(
+        'Signup successful',
+        'Please sign in with your new password.',
+        snackPosition: SnackPosition.BOTTOM,
+        backgroundColor: Colors.black87,
+        colorText: Colors.white,
+        margin: const EdgeInsets.all(16),
+      );
     } catch (e) {
       errorMessage.value = e.toString();
     } finally {
@@ -154,6 +163,17 @@ class AuthController extends GetxController {
   Future<void> logout() async {
     await _logoutUseCase();
     currentUser.value = null;
+    signInEmailController.clear();
+    signInPasswordController.clear();
+    signUpNameController.clear();
+    signUpEmailController.clear();
+    signUpPasswordController.clear();
+    signUpConfirmPasswordController.clear();
+    isSignInSelected.value = true;
+    isSignInPasswordVisible.value = false;
+    isSignUpPasswordVisible.value = false;
+    isSignUpConfirmPasswordVisible.value = false;
+    errorMessage.value = '';
     Get.offAllNamed(AppRoutes.auth);
   }
 }

@@ -66,10 +66,7 @@ class ProfileController extends GetxController {
       remainingBalance.value = 0;
       return;
     }
-    final summary = await _balancesUseCase.getMonthlySummary(
-      user.id,
-      DateTime.now(),
-    );
+    final summary = await _balancesUseCase.getAllTimeSummary(user.id);
     totalSpendings.value = summary.totalExpense;
     remainingBalance.value = summary.remainingBalance;
   }
